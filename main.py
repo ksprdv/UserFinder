@@ -9,7 +9,6 @@ from os import system as cmd
 if __name__ == "__main__":
     #while True:
         cmd("clear")
-        Utils.log("Deanon Lite by KasperDEV")
         Utils.log("1 - Номер телефона\n2 - IP\n3 - Никнейм")
         type = input(Utils.text("Выберите тип поиска: "))
         type = int(type)
